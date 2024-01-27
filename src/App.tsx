@@ -1,6 +1,7 @@
 import "./App.css";
 import Greet from "./components/Greet";
 import Person from "./components/Person";
+import Status from "./components/Status";
 
 export default function App() {
   const personList = [
@@ -28,6 +29,7 @@ export default function App() {
       />
 
       <Person personList={personList} />
+      <Status status="success" />
     </div>
   );
 }
